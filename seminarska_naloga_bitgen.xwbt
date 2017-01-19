@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\luka\Documents\ISE projects\SEMINARSKA_NALOGA\seminarska_naloga.ncd
+OUTFILE=C:\Users\luka\Documents\ISE projects\SEMINARSKA_NALOGA\seminarska_naloga.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=C:\Users\luka\Documents\ISE projects\SEMINARSKA_NALOGA
+LICENSE=WebPack
+USER_INFO=__0_0_0

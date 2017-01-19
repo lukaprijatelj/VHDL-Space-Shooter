@@ -1,0 +1,47 @@
+//! **************************************************************************
+// Written by: Map P.58f on Thu Jul 02 14:04:43 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "reset" LOCATE = SITE "E16" LEVEL 1;
+COMP "sseg<4>" LOCATE = SITE "K3" LEVEL 1;
+COMP "sseg<3>" LOCATE = SITE "L4" LEVEL 1;
+COMP "sseg<2>" LOCATE = SITE "L5" LEVEL 1;
+COMP "sseg<1>" LOCATE = SITE "N1" LEVEL 1;
+COMP "sseg<0>" LOCATE = SITE "L3" LEVEL 1;
+COMP "sseg<7>" LOCATE = SITE "M4" LEVEL 1;
+COMP "sseg<6>" LOCATE = SITE "L6" LEVEL 1;
+COMP "sseg<5>" LOCATE = SITE "M2" LEVEL 1;
+COMP "SS" LOCATE = SITE "C15" LEVEL 1;
+COMP "pause_switch" LOCATE = SITE "U9" LEVEL 1;
+COMP "vgaGreen<3>" LOCATE = SITE "A6" LEVEL 1;
+COMP "vgaGreen<1>" LOCATE = SITE "A5" LEVEL 1;
+COMP "vgaGreen<2>" LOCATE = SITE "B6" LEVEL 1;
+COMP "vgaGreen<0>" LOCATE = SITE "C6" LEVEL 1;
+COMP "shoot_button" LOCATE = SITE "F15" LEVEL 1;
+COMP "MISO" LOCATE = SITE "D13" LEVEL 1;
+COMP "vgaBlue<2>" LOCATE = SITE "D7" LEVEL 1;
+COMP "vgaBlue<1>" LOCATE = SITE "C7" LEVEL 1;
+COMP "Vsync" LOCATE = SITE "B12" LEVEL 1;
+COMP "vgaBlue<3>" LOCATE = SITE "D8" LEVEL 1;
+COMP "vgaBlue<0>" LOCATE = SITE "B7" LEVEL 1;
+COMP "MOSI" LOCATE = SITE "B14" LEVEL 1;
+COMP "vgaRed<2>" LOCATE = SITE "C5" LEVEL 1;
+COMP "vgaRed<1>" LOCATE = SITE "B4" LEVEL 1;
+COMP "vgaRed<3>" LOCATE = SITE "A4" LEVEL 1;
+COMP "vgaRed<0>" LOCATE = SITE "A3" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "SCLK" LOCATE = SITE "D15" LEVEL 1;
+COMP "Hsync" LOCATE = SITE "B11" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "N6" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "M6" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "M3" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "N5" LEVEL 1;
+COMP "an<4>" LOCATE = SITE "N2" LEVEL 1;
+COMP "an<5>" LOCATE = SITE "N4" LEVEL 1;
+COMP "an<6>" LOCATE = SITE "L1" LEVEL 1;
+COMP "an<7>" LOCATE = SITE "M1" LEVEL 1;
+COMP "int1" LOCATE = SITE "C16" LEVEL 1;
+COMP "int2" LOCATE = SITE "E15" LEVEL 1;
+SCHEMATIC END;
+

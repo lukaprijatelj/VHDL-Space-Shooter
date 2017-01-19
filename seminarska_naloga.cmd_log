@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/luka/Documents/ISE projects/SEMINARSKA_NALOGA/seminarska_naloga.xst" -ofn "C:/Users/luka/Documents/ISE projects/SEMINARSKA_NALOGA/seminarska_naloga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc VGA_Semi_Nexys4.ucf -p xc7a100t-csg324-3 "seminarska_naloga.ngc" seminarska_naloga.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o seminarska_naloga_map.ncd seminarska_naloga.ngd seminarska_naloga.pcf 
+par -w -intstyle ise -ol high -mt off seminarska_naloga_map.ncd seminarska_naloga.ncd seminarska_naloga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml seminarska_naloga.twx seminarska_naloga.ncd -o seminarska_naloga.twr seminarska_naloga.pcf -ucf VGA_Semi_Nexys4.ucf 
+bitgen -intstyle ise -f seminarska_naloga.ut seminarska_naloga.ncd 
