@@ -15,4 +15,4 @@ There are also components I programmed, components like: Enemy, User ...
 ![alt tag](https://raw.githubusercontent.com/mrLukas/VHDL-Space-Shooter/master/Pictures/Nexys4_board.jpg)
 
 ## Scheme
-![alt tag](https://raw.githubusercontent.com/mrLukas/VHDL-Space-Shooter/master/Pictures/Scheme.png)
+![alt tag](https://raw.githubusercontent.com/mrLukas/VHDL-Space-Shooter/master/Pictures/scheme.png)
